@@ -57,7 +57,7 @@ body {
     width: 100%;
     min-height: 650px;
     padding: 100px 5%;
-    background: repeating-linear-gradient(to right, #ffea76, #ffea76 20px, #fff1a1 20px, #fff1a1 40px);
+    background: repeating-linear-gradient(to right, #fff5bd, #fff5bd 20px, #fff3b0 20px, #fff3b0 40px);
     gap: 4%;
     overflow: hidden;
 }
@@ -84,17 +84,18 @@ body {
     margin-bottom: 10px;
     text-align: left;
     width: 100%;
-    text-shadow: 1px 1px 20px #00000038;
+    color: #ff8742;
+    text-shadow: 1px 1px 1px #00000037;
 }
 
 .hero-content .hero-description {
     display: block;
     font-family: 'Cutest', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 25px;
     text-align: left;
-    text-shadow: 1px 1px 8px #00000061;
+    text-shadow: 1px 1px 1px #00000075;
     width: 100%;
 }
 

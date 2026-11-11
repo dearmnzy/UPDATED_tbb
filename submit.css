@@ -30,12 +30,14 @@ body {
     max-width: 1100px;
     background: repeating-linear-gradient(to right, #fff5bd, #fff5bd 20px, #fff3b0 20px, #fff3b0 40px);
 }
+
 .hero-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 400px;
 }
+
 .hero-text {
     display: inline-block;
     width: 55%;
@@ -106,6 +108,7 @@ body {
 .form-submit {
     padding: 30px 25px 70px;
 }
+
 .form-submit form {
     background-color: #ffc3cd;
     max-width: 650px;
@@ -116,6 +119,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 7px 20px rgba(92, 89, 89, 0.651);
 }
+
 .form-submit form::before {
     content: "";
     position: absolute;
@@ -126,10 +130,12 @@ body {
     opacity: 0.20;
     z-index: 0;
 }
+
 .form-submit form > * {
     position: relative;
     z-index: 1;
 }
+
 .form-submit label {
     display: inline-block;
     margin-bottom: 13px;
@@ -138,18 +144,22 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
 .form-submit h2, .form-submit p {
     font-family: 'Poppins-Bold', sans-serif;
     text-align: center;
     color: #fdfcea;
     margin-bottom: 25px;
 }
+
 .form-submit h2 {
     font-size: 35px;
 }
+
 .form-submit p {
     font-size: 20px;
 }
+
 input[type="text"] {
     width: 100%;
     padding: 20px;
@@ -159,6 +169,7 @@ input[type="text"] {
     box-sizing: border-box;
     font-size: 15px;
 }
+
 #businessadd {
     width: 100%;
     padding: 20px;
@@ -168,15 +179,18 @@ input[type="text"] {
     box-sizing: border-box;
     font-size: 15px;
 }
+
 .select-container {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
 }
+
 .select-container label {
     margin-bottom: 13px;
 }
+
 .category {
     border: 1px solid gray;
     appearance: none;
@@ -189,6 +203,7 @@ input[type="text"] {
     background-color: white;
     font-size: 15px;
 }
+
 .select-container .icon-container {
     width: 50px;
     height: 59px;
@@ -201,14 +216,17 @@ input[type="text"] {
     background-color: #5e0505;
     pointer-events: none;
 }
+
 .icon-container i {
     font-size: 30px;
     color: white;
 }
+
 .bttn {
     width: 100%;
     text-align: center;
 }
+
 .bttn button {
     padding: 15px 30px;
     border: none;
@@ -219,21 +237,26 @@ input[type="text"] {
     font-weight: bold;
     cursor: pointer;
 }
+
 .bttn button[type="submit"]:hover {
     background-color: #820808;
     color: #fdfcea;
 }
+
 .hero-description a {
     color: #fdfcea;
     text-decoration: none;
 }
+
 .hero-description a:hover {
     color: #e6e2b2;
 }
+
 .rating {
     margin-top: 20px;
     margin-bottom: 25px;
 }
+
 .rating-label {
     display: inline-block;
     margin-bottom: 13px;
@@ -243,15 +266,18 @@ input[type="text"] {
     font-weight: bold;
     text-align: center;
 }
+
 .star-icon {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     gap: 5px;
 }
+
 .star-icon input {
     display: none;
 }
+
 .star-icon label {
     font-family: FontAwesome;
     margin: 0;
@@ -259,9 +285,11 @@ input[type="text"] {
     color: whitesmoke;
     cursor: pointer;
 }
+
 .star-icon label:hover, .star-icon label:hover ~ label, .star-icon input:checked ~ label {
     color: #fff75a;
 }
+
 /* "~" means following sibling elements. ito yung mga element na kasunod nung naungng star.
    Ginamit para ma color din ang mga stars na kasama sa rating. */
 
